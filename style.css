@@ -1,10 +1,13 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     color: white;
     background-color: #1f2937 ;
+    padding: 0 200px;
 }
 
 h1 {
@@ -17,6 +20,9 @@ button {
     font-weight: bolder;
     color: white;
     font-weight: bold;
+    width: max-content;
+    border-radius: 16px;
+    padding: 0 20px;
 }
 
 ul {   
@@ -24,13 +30,18 @@ ul {
 }
 
 img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 160px;
     margin: 10px;
+    margin-left: 50px;
 }
 
 .header-text-head {
     font-size: 36px;
+    margin-bottom: 16px;
+}
+.header-text-content{
+    margin-bottom: 16px;
 }
 .container {
     display: flex;
@@ -40,6 +51,7 @@ img {
 .logo-links {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .links {
@@ -54,4 +66,11 @@ img {
 
 .text-button-img {
     display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.signup-button {
+    margin-bottom: 16px;
 }
