@@ -140,3 +140,36 @@ ul {
     font-weight: bold;
     padding-bottom: 10px;
 }
+
+.fifth-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    gap: 72px;
+    margin: 50px 120px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.fifth-part button{
+    border: 1px solid white;
+}
+
+.middle
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 25px 0;
+}
