@@ -1,3 +1,4 @@
+/* Create the Header */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
@@ -22,16 +23,16 @@ button {
     font-weight: bold;
     width: max-content;
     border-radius: 16px;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 ul {   
     list-style: none;
 }
 
-img {
+.sunset {
     width: 300px;
-    height: 160px;
+    height: 250px;
     margin: 10px;
     margin-left: 50px;
 }
@@ -62,15 +63,44 @@ img {
 .text-button {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
+    max-width: 350px;
 }
 
 .text-button-img {
     display: flex;
-    gap: 16px;
+    gap: 48px;
     align-items: center;
     margin-bottom: 60px;
+    justify-content: space-between;
+    justify-content: center;
 }
 
 .signup-button {
     margin-bottom: 16px;
+}
+
+/* The header is complete */
+
+/* Create the text */
+
+.text-body{
+    margin: 0;
+    padding: 0;
+}
+.four-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+}
+
+
+.some {
+    text-align: center;
 }
