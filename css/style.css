@@ -8,7 +8,6 @@ body {
 header {
     color: white;
     background-color: #1f2937 ;
-    padding: 0 200px;
 }
 
 h1 {
@@ -63,18 +62,20 @@ ul {
 .text-button {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    max-width: 350px;
+    /* flex-shrink: 1;  */
+    flex-shrink: 1;
+    max-width: 500px;
 }
 
 .text-button-img {
     display: flex;
-    gap: 48px;
+    align-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
-    justify-content: space-between;
-    justify-content: center;
+ 
 }
+
 
 .signup-button {
     margin-bottom: 16px;
@@ -108,14 +109,34 @@ ul {
     text-align: center;
 }
 
-
 .item {
-    vertical-align: top;
     display: inline-block;
     text-align: center;
     width: 200px;
 }
 
-.caption {
+.grey-text {
     display: block;
+}
+
+.logo-links, 
+.text-button-img,
+ .grey-text, 
+ .text-body {
+    padding: 0 200px;
+}
+
+.grey-text {
+    background-color: #e5e7eb;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 26px;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+
+.align-right {
+    text-align: end;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
