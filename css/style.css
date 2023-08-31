@@ -87,10 +87,12 @@ ul {
 .text-body{
     margin: 0;
     padding: 0;
+    margin-bottom: 100px;
 }
 .four-img{
     display: flex;
-    justify-content: space-around;
+    gap: 16px;
+    justify-content: center;
     flex-wrap: wrap;
     flex: 1;
 }
@@ -98,9 +100,22 @@ ul {
 .img-size {
     width: 200px;
     height: 200px;
+    border-radius: 16px;
 }
 
 
 .some {
     text-align: center;
+}
+
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+.caption {
+    display: block;
 }
